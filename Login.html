@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <!-- Cabeçalho -->
     <header>
         <div class="layout-grid header-flex">
             <img src="./images/logo-desktop.svg" alt="Logo da BiblioTec">
@@ -21,23 +20,28 @@
         </div>
     </header>
 
-    <!-- Tela de Login -->
     <div class="login-wrapper">
         <div class="login-box">
             <h2 class="login-title">Entre na BiblioTec</h2>
-            <form class="login-form" action="#" method="post">
-                <input type="text" class="login-input" placeholder="Usuário" required>
-                <input type="password" class="login-input" placeholder="Senha" required>
+            <form action="">
+                <label for="e-mail" >E-mail<br></label>
+                <input  type="email" id="e-mail" class="login-input" placeholder="seu e-mail">
+                
+                <br><br>
+                
+                <label for="senha" >Senha <br></label>
+                <input type="password" id="senha" class="login-input" placeholder="************">
+
+                <br><br>
+
                 <a href="#" class="forgot-password">Esqueceu sua senha?</a>
-                <button type="submit" class="login-button">Login</button>
+
+                <br><br>
+
+                <button type="submit" class="login-button">Enviar</button>
             </form>
         </div>
     </div>
-
-    <!-- Rodapé -->
-    <footer>
-
-    </footer>
 
 </body>
 
